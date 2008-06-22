@@ -1,0 +1,20 @@
+#summary PHP image documentation homepage
+#labels Featured
+
+= PHP Image =
+
+Documentation contents...
+
+
+= Image Class =
+
+  * [imageClass image.class.php]
+  * [imagePlugin image_plugin interface]
+
+= Analyser plugin =
+
+  * [analyserClass analyser.class.php]
+
+= Draw Plugins =
+
+= Effect Plugins =
