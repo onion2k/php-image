@@ -5,6 +5,15 @@
 
 PHP Image consists of a base framework class, image.class.php, and any number of plugin objects that change the image or perform calculations on the image.
 
+== Using image.class.php ==
+
+  * [tutorialBasics A basic guide to using image.class.php]
+  * [tutorialThumbnails Creating and saving a thumbnail image]
+  * [tutorialCaptcha Generating a CAPTCHA image with TTF fonts]
+  * [tutorialPlugins Modifying an image with some effect plugins]
+  * [tutorialAdvancedPlugins A more advanced image created with stacked plugins]
+  * [tutorialPluginCreation Writing your own plugins for image.class.php]
+
 == Image Class ==
 
   * [imageClass image.class.php]
