@@ -8,7 +8,7 @@ PHP Image consists of a base framework class, image.class.php, and any number of
 == Image Class ==
 
   * [imageClass image.class.php]
-  * [imagePlugin image_plugin interface]
+  * [imagePlugin image_plugin interface and image plugin base class]
 
 == Analyser plugins ==
 
