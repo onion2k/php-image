@@ -67,7 +67,7 @@ The magic functions are __get() and __set(). These are called whenever a class v
   * image - the handle for the GD image resource.
   * handle_x - The handle position for the image, either the top left or the centre depending on whether mid_handle is true or false.
   * handle_y - As handle_x.
-  * a_* - Values starting with a_ are the id of an attached plugin.
+  * a_ - Values starting with a_ are the id of an attached plugin.
 
 == Private Functions ==
 
