@@ -25,11 +25,13 @@ Saving the script and calling it from a browser will now display a red square. E
 
 Putting the whole script together:
 
-{{{include_once "image/image.class.php";
+{{{
+include_once "image/image.class.php";
 
 $image = new image(100,100);
 $image->imagefill(0,0,"FF0000");
 
-$image->imagePng();}}}
+$image->imagePng();
+}}}
 
 Next we'll learn how to use Image to create a thumbnail of an existing or an uploaded image.
