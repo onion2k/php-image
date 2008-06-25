@@ -34,4 +34,7 @@ $image->imagefill(0,0,"FF0000");
 $image->imagePng();
 }}}
 
+The final image:
+http://www.ooer.com/phpimage/tutorialBasics.png
+
 Next we'll learn how to use Image to create a thumbnail of an existing or an uploaded image.
