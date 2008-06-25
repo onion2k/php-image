@@ -1,0 +1,26 @@
+#summary Creating and saving a thumbnail of an existing image
+
+= Creating and saving a thumbnail =
+
+One of the most common tasks for PHP and GD in web development is the creation of a thumbnail from an image uploaded by a user. In this tutorial we will go through the necessary stages to open an image, resize and crop it if necessary, and then save a copy to the server.
+
+Actually uploading an image is beyond the scope of this tutorial. Suffice to say there are many tutorials that cover this on the internet, so Google 'file upload php' first if you need to create that part of the script. In this tutorial we will assume that there is a working upload form that places the uploaded file into $_FILES with a field name of 'image_upload'.
+
+As with all image.class.php scripts the first thing we need to do is include the library.
+
+{{{include_once "image/image.class.php";}}}
+
+As the image has been uploaded as 'image_upload' we first need to gather a few bits of data from the $_FILES array:
+
+{{{
+$name = $_FILES['image_upload']['name'];
+$tmp_name = $_FILES['image_upload']['tmp_name'];
+}}}
+
+The original filename is now stored in {{{$name}}} and the name of the temporary copy is stored in {{{$tmp_name}}}. You should also valid the filetype and the filesize of the uploaded file as a matter of course, but again that is beyond the scope of this tutorial.
+
+Next we need to create an instance of the Image class and open the image file.
+
+{{{$image = new Image($tmp_name);}}}
+
+As this stage it is sensible to check the file opened correctly.
