@@ -21,9 +21,10 @@ PHP Image consists of a base framework class, image.class.php, and any number of
 
 == Analyser plugins ==
 
-Analyser plugins perform calculations on an image that has been loaded or created with the base class.
+Analyser plugins gather data and perform calculations.
 
   * [pluginAnalyser analyser.class.php - Perform a number of calculations on an image]
+  * [pluginExif exif.class.php - Gather EXIF data from a digital photo]
 
 == Drawing Plugins ==
 
