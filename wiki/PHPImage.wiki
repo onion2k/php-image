@@ -1,0 +1,56 @@
+#summary PHP image documentation homepage
+#labels Featured
+
+= PHP Image =
+
+PHP Image consists of a base framework class, image.class.php, and any number of plugin objects that change the image or perform calculations on the image.
+
+== Using image.class.php ==
+
+  * [tutorialBasics A basic guide to using image.class.php]
+  * [tutorialThumbnails Creating and saving a thumbnail image]
+  * [tutorialCaptcha Generating a CAPTCHA image with TTF fonts]
+  * [tutorialPlugins Modifying an image with some effect plugins]
+  * [tutorialAdvancedPlugins A more advanced image created with stacked plugins]
+  * [tutorialPluginCreation Writing your own plugins for image.class.php]
+
+== Image Class ==
+
+  * [imageClass image.class.php]
+  * [imagePlugin image_plugin interface and image plugin base class]
+
+== Analyser plugins ==
+
+Analyser plugins gather data and perform calculations.
+
+  * [pluginAnalyser analyser.class.php - Perform a number of calculations on an image]
+  * [pluginExif exif.class.php - Gather EXIF data from a digital photo]
+
+== Drawing Plugins ==
+
+Drawing plugins add new pixels to an image.
+
+  * [pluginBorder border.class.php - add borders to an image]
+  * [pluginCaptcha captcha.class.php - draw TTF captcha text on an image]
+  * [pluginInfo infobar.class.php - Add an information bar to an image]
+  * [pluginScanline scanline.class.php - Add alternating scanlines to an image]
+  * [pluginTrueshadow trueshadow.class.php - Add a drop shadow to an image]
+  * [pluginWatermark watermark.class.php - Add a watermark image to an image]
+
+== Effect Plugins ==
+
+Effect plugins change the pixels in an image.
+
+  * [pluginBlackAndWhite blackandwhite.class.php - Convert to black and white with a number of algorithms]
+  * [pluginCanvassize canvassize.class.php - Increase the size of the image adding transparent pixels at the edges]
+  * [pluginCorners corners.class.php - Round the corners of an image]
+  * [pluginCrop crop.class.php - Crop an image to a smaller size]
+  * [pluginFilter filter.class.php - Access imagefilter() effects]
+  * [pluginFlip flip.class.php - Flip an image in the horizontal or vertical axis]
+  * [pluginGaussian gaussian.class.php - Blur pixels in an image with a gaussian convolution]
+  * [pluginJitter jitter.class.php - Randomly jitter pixels]
+  * [pluginOffset offset.class.php - Move pixels by an offset amount]
+  * [pluginResize resize.class.php - Resize an image]
+  * [pluginRipple ripple.class.php - Transform pixels with an ripple effect]
+  * [pluginSobel sobel.class.php - Convert an image to Sobel Edges]
+  * [pluginVignette vignette.class.php - Add a transparent vignette]
